@@ -79,8 +79,8 @@
                 <version>3.4.1</version>
                 <configuration>
                     <installHooks>
-                        <!-- pre-commit hook 정의 -->
                         <pre-commit>git-hooks/pre-commit.sh</pre-commit>
+                        <pre-push>git-hooks/pre-push.sh</pre-push>
                     </installHooks>
                 </configuration>
                 <executions>
